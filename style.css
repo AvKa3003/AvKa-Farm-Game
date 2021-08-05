@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(90, 90, 226);
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 40px;
+}
+
+
+/* techTree */
+
+.techTree {
+  outline: 1px red solid;
+  position: relative;
+  color: white;
+}
+
+.techItem {
+  position: absolute;
+  display: inline-block;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.techBody {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  background-color: #3F2108;
+  border: 4px solid #A07523;
+  border-bottom-right-radius: 21px;
+}
+
+.techName {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  top: 0px;
+  left: -5px;
+  display: inline-block;
+  width: calc(100% + 10px);
+  background-color: #542F17;
+  border: 5px solid #D3AF6B;
+  border-radius: 5px;
+}
+
+.techIcon {
+  width: 55px;
+  height: 55px;
+  margin: 5px;
+  margin-right: 15px;
+  border: 4px solid #936F41;
+  border-radius: 10px;
+}
+
+.techResIcon {
+  width: 45px;
+  height: 45px;
+  border: 4px solid #936F41;
+  border-radius: 10px;
+}
+
+.techRes {
+  display: flex;
+  align-items: center;
+}
+
+.techResCount {
+  margin: 0 5px;
+}
