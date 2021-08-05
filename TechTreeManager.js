@@ -1,4 +1,4 @@
-const techTree = document.querySelector(".techTree");
+const techTree = document.querySelector(".techLocation");
 
 let generatedTechTree = "";
 for(let key in techBD) {

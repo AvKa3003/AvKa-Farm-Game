@@ -32,5 +32,22 @@ let techBD = {
         cont: 200,
       }
     }
+  },
+  2: {
+    name: "Tech name3",
+    disc: "tech dicription",
+    xcor: 200,
+    ycor: 200,
+    icon: "url of tech icon",
+    need: {
+      0: {
+        resn: "res1name",
+        cont: 10,
+      },
+      1: {
+        resn: "res2name",
+        cont: 200,
+      }
+    }
   }
 };
